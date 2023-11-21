@@ -309,13 +309,11 @@ header.shadow{
     transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .about-data{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px, auto));
-    gap: 2rem;
-    margin-top: 2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 380px;
+    height: 450px;
+    margin-top: 1rem;
+    align-self: center;
+    position: fixed;
 }
 .about-box {
     display: flex;
@@ -327,9 +325,8 @@ header.shadow{
 }
 .about-box img {
     display: flex;
-    justify-content: center;
     align-items: center;
-    max-width: 300px;
+    max-width: 360px;
     max-height: 586px;
 }
 
