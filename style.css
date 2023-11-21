@@ -384,7 +384,7 @@ header.shadow{
 }
 .ser-img{
     width: 380px;
-    height: 450px;
+    height: 550px;
     margin-top: 1rem;
 }
 .ser-img::after{
@@ -396,7 +396,7 @@ header.shadow{
 }
 .ser-img img{
     width: 380px;
-    height: 450px;
+    height: 520px;
     object-fit: cover;
     object-position: center;
 }
