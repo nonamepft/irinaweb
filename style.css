@@ -381,7 +381,6 @@ header.shadow{
     gap: 2rem;
 }
 .ser-img{
-    position: relative;
     width: 380px;
     height: 450px;
     margin-top: 1rem;
@@ -390,7 +389,6 @@ header.shadow{
     content: '';
     width: 100%;
     height: 100%;
-    position: absolute;
     top: -1rem;
     right: -1rem;
     border: 1px solid var(--main-color);
